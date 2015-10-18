@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+android:background="@drawable/welcome"    >
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/frameLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACT-US"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAIL"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="210dp"
+            android:textSize="25sp"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+
+        <ImageButton
+            android:layout_margin="15dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            android:src="@drawable/hell"
+            android:background="@drawable/circle"
+            android:id="@+id/buttonmail"
+            android:onClick="sendMail"
+            android:layout_gravity="left|center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALL"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="210dp"
+            android:textSize="25sp"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+        <ImageButton
+            android:layout_margin="15dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="sendCall"
+            android:src="@drawable/cc"
+            android:background="@drawable/circle"
+            android:id="@+id/buttonSign"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_margin="15dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="signIn"
+            android:src="@drawable/jj"
+            android:background="@drawable/circle"
+            android:id="@+id/butto"
+            android:layout_gravity="right|center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOCATION"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="210dp"
+            android:textSize="25sp"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+    </FrameLayout>
+</RelativeLayout>
+
+
+
+

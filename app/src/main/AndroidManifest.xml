@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.murugesan.againtestingsql"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk android:minSdkVersion="19" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/images"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUPActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".Welcome"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name=".NotificationView"
+            android:label="Details of notification"
+            android:parentActivityName=".Welcome" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Welcome" />
+        </activity>
+        <activity
+            android:name=".DisplayActivity"
+            android:label="@string/title_activity_display"
+            android:parentActivityName=".Welcome" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.Welcome" />
+        </activity>
+        <activity
+            android:name=".BmiActivity"
+            android:label="@string/title_activity_bmi"
+            android:parentActivityName=".Welcome" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.Welcome" />
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_result"
+            android:parentActivityName=".BmiActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.BmiActivity" />
+        </activity>
+        <activity
+            android:name=".WorkoutActivity"
+            android:label="@string/title_activity_workout"
+            android:parentActivityName=".Welcome" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.Welcome" />
+        </activity>
+        <activity
+            android:name=".DisplayWorkoutActivity"
+            android:label="@string/title_activity_display_workout"
+            android:parentActivityName=".WorkoutActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.WorkoutActivity" />
+        </activity>
+        <activity
+            android:name=".ChestActivity"
+            android:label="@string/title_activity_chest"
+            android:parentActivityName=".DisplayWorkoutActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.DisplayWorkoutActivity" />
+        </activity>
+        <activity
+            android:name=".ShoulderActivity"
+            android:label="@string/title_activity_shoulder"
+            android:parentActivityName=".DisplayWorkoutActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.DisplayWorkoutActivity" />
+        </activity>
+        <activity
+            android:name=".LatsActivity"
+            android:label="@string/title_activity_lats"
+            android:parentActivityName=".DisplayWorkoutActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.DisplayWorkoutActivity" />
+        </activity>
+        <activity
+            android:name=".TricepsActivity"
+            android:label="@string/title_activity_triceps"
+            android:parentActivityName=".DisplayWorkoutActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.DisplayWorkoutActivity" />
+        </activity>
+        <activity
+            android:name=".BicepsActivity"
+            android:label="@string/title_activity_biceps"
+            android:parentActivityName=".DisplayWorkoutActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.DisplayWorkoutActivity" />
+        </activity>
+        <activity
+            android:name=".SquatsActivity"
+            android:label="@string/title_activity_squats"
+            android:parentActivityName=".DisplayWorkoutActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.DisplayWorkoutActivity" />
+        </activity>
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="@string/title_activity_feedback"
+            android:parentActivityName=".Welcome" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.Welcome" />
+        </activity>
+        <activity
+            android:name=".PhoneActivity"
+            android:label="@string/title_activity_phone"
+            android:parentActivityName=".Welcome" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.Welcome" />
+        </activity>
+        <activity
+            android:name=".ModeActivity"
+            android:label="@string/title_activity_mode"
+            android:parentActivityName=".Welcome" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.Welcome" />
+        </activity>
+        <activity
+            android:name=".TimerActivity"
+            android:label="@string/title_activity_timer" >
+        </activity>
+        <activity
+            android:name=".Blind"
+            android:label="@string/title_activity_blind"
+            android:parentActivityName=".ModeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.ModeActivity" />
+        </activity>
+        <activity
+            android:name=".Speechworkout"
+            android:label="@string/title_activity_speechworkout"
+            android:parentActivityName=".Blind" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.Blind" />
+        </activity>
+        <activity
+            android:name=".Welcome2"
+            android:label="@string/title_activity_welcome2" >
+        </activity>
+        <activity
+            android:name=".Contacts"
+            android:label="@string/title_activity_contacts"
+            android:parentActivityName=".Welcome2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.Welcome2" />
+        </activity>
+        <activity
+            android:name=".WorkoutScreen"
+            android:label="@string/title_activity_workout_screen"
+            android:parentActivityName=".Welcome2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.murugesan.againtestingsql.Welcome2" />
+        </activity>
+        <activity
+            android:name=".Timering"
+            android:label="@string/title_activity_timering" >
+        </activity>
+        <activity
+            android:name=".Loggingout"
+            android:label="@string/title_activity_loggingout" >
+        </activity>
+
+        <activity
+            android:name=".Alarm"
+            android:label="@string/title_activity_alarm" >
+        </activity>
+        <receiver android:name="MyBroadcastReceiver" >
+        </receiver>
+    </application>
+
+</manifest>

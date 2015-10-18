@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/not1"
+    >
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/frameLayout">
+
+
+
+
+        <ImageButton
+            android:layout_margin="70dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="sendWork"
+            android:src="@drawable/bub"
+
+            android:background="@drawable/circle"
+            android:id="@+id/buttonSignUP"
+             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WORKOUT"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="90dp"
+            android:textSize="20sp"
+            android:textColor="#ff0066"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+
+        <ImageButton
+            android:layout_margin="140dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="sendM"
+            android:src="@drawable/mm"
+            android:background="@drawable/circle"
+            android:id="@+id/button"
+
+            android:layout_gravity="left" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODE"
+            android:textColor="#ff0066"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="165dp"
+
+            android:textSize="20sp"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+        <ImageButton
+            android:layout_margin="15dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="sendContacts"
+            android:src="@drawable/yt"
+            android:background="@drawable/circle"
+            android:id="@+id/buttonSignIN"
+            android:layout_gravity="right|bottom" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACTS"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="450dp"
+            android:textSize="20sp"
+            android:textColor="#ff0066"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+
+    </FrameLayout>
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_gravity="right"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@+id/not"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/notification1">
+
+
+        <TextView
+            android:layout_width="247dp"
+            android:layout_height="181dp"
+            android:textColor="#F70929"
+            android:textSize="50dp"
+            android:text="  Today's workout Tip" />
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="400dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/chest1"
+            />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:textSize="50dp"
+             />
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="400dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/shoulder1"/>
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:textSize="50dp"
+            />
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="400dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/lat1"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:textSize="50dp"
+            />
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="400dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/triceps1"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:textSize="50dp"
+            />
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="400dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bicep1"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:textSize="50dp"
+            />
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="400dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/abs1"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

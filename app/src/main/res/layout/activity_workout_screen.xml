@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/mainnn"
+    >
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/frameLayout">
+
+
+
+
+        <ImageButton
+            android:layout_margin="45dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="sendBMI"
+            android:src="@drawable/bmm"
+            android:background="@drawable/circle"
+            android:id="@+id/buttonSignUP"
+            android:layout_gravity="top|left"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="140dp"
+            android:textSize="23sp"
+            android:textColor="#ff0066"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+
+        <ImageButton
+            android:layout_margin="45dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            android:src="@drawable/qw"
+            android:background="@drawable/circle"
+            android:id="@+id/button"
+            android:layout_gravity="top|right" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TIPS"
+            android:textColor="#ff0066"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="140dp"
+
+            android:textSize="20sp"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+        <ImageButton
+            android:layout_margin="45dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="sendSchedule"
+            android:src="@drawable/silu"
+            android:background="@drawable/circle"
+            android:id="@+id/buttonS"
+
+            android:layout_gravity="bottom|left" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCHEDULE"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="420dp"
+            android:textSize="20sp"
+            android:textColor="#ff0066"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+        <ImageButton
+            android:layout_margin="45dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="sendRoutines"
+            android:src="@drawable/siri"
+            android:background="@drawable/circle"
+            android:id="@+id/buttonSig"
+            android:layout_gravity="bottom|right" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROUTINES"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="420dp"
+            android:textSize="20sp"
+            android:textColor="#ff0066"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+    </FrameLayout>
+</RelativeLayout>
+
+
+
+

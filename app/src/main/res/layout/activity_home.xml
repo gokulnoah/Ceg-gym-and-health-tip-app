@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   android:background="@drawable/casc" >
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/frameLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CEG"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GYM AND HEALTH"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="60dp"
+            android:textSize="30sp"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TIP APP"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="100dp"
+            android:textSize="30sp"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            android:textColor="#000000"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="490dp"
+        android:textSize="30sp"
+        android:fontFamily="@string/fontFamily__roboto_black"
+        android:textColor="#0aaaa1"
+        />
+
+        <ImageButton
+            android:layout_margin="15dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            android:src="@drawable/try2"
+            android:background="@drawable/circle"
+            android:id="@+id/buttonSignUP"
+            android:layout_gravity="right|bottom" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="490dp"
+            android:textSize="30sp"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            android:textColor="#0aaaa1"
+            />
+        <ImageButton
+            android:layout_margin="15dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="signIn"
+            android:src="@drawable/loglog"
+            android:background="@drawable/circle"
+            android:id="@+id/buttonSignIN"
+            android:layout_gravity="left|bottom" />
+
+
+    </FrameLayout>
+</RelativeLayout>
+
+    <!--Button
+        android:id="@+id/buttonSignIN"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Login"
+        android:textSize="30dp"
+        android:textColor="#aa4422"
+        android:onClick="signIn"
+        android:background="@android:color/transparent"
+        android:fontFamily="@string/fontFamily__roboto_black"/-->
+
+    <!--Button
+        android:id="@+id/buttonSignUP"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:text="Signup"
+        android:textColor="#aa4422"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="@string/fontFamily__roboto_black"
+        android:layout_gravity="right|bottom" /-->
+
+
+

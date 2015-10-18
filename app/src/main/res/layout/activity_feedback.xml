@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/feed">
+
+    <TextView
+        android:id="@+id/textViewPhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To : "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+       />
+
+    <TextView
+        android:text="@string/off"
+        android:id="@+id/editTextTo"
+        android:layout_width="264dp"
+        android:layout_height="5dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="-20dp"
+        android:textColorHint="#aa2233"
+        android:layout_weight="0.45"
+        android:textColor="#ffffff">
+
+        <requestFocus />
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textViewSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject : "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/editTextSubject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message : "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:lines="5"
+
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="130dp" />
+
+</LinearLayout>

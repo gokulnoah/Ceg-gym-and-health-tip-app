@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/moo"    >
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/frameLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODES"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TIMER"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="220dp"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPEECH"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="220dp"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:fontFamily="@string/fontFamily__roboto_black"
+            />
+
+
+        <ImageButton
+            android:layout_margin="15dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            android:src="@drawable/f"
+            android:background="@drawable/circle"
+            android:id="@+id/buttonmail"
+            android:onClick="Timer"
+            android:layout_gravity="left|center" />
+
+
+        <ImageButton
+            android:layout_margin="15dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="speech"
+            android:src="@drawable/vv"
+            android:background="@drawable/circle"
+            android:id="@+id/butto"
+            android:layout_gravity="right|center" />
+
+    </FrameLayout>
+</RelativeLayout>
+
+
+
+

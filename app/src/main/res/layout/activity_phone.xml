@@ -1,0 +1,138 @@
+
+<!--RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/a1"
+    android:paddingRight="@dimen/a2"
+    android:paddingTop="@dimen/a3"
+    android:paddingBottom="@dimen/a4"
+    android:background="@drawable/phone1"-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/phone1">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/frameLayout">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Service"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginLeft="80dp"
+        android:textColor="#00ffff"
+        android:fontFamily="@string/fontFamily__roboto_black"/>
+
+
+    <ImageButton
+        android:layout_margin="15dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/phone"
+        android:background="@drawable/circle1"
+        android:id="@+id/button"
+        android:layout_gravity="top" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Call CEO"
+            android:id="@+id/textView12"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:layout_marginLeft="90dp"
+            android:textColor="#ffffff"
+          />
+    <ImageButton
+        android:layout_margin="15dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:src="@drawable/phone"
+        android:background="@drawable/circle1"
+        android:id="@+id/button1"
+        android:layout_gravity="center_vertical" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:text="Call Manager"
+            android:id="@+id/textView13"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:layout_marginLeft="90dp"
+            android:textColor="#000000"
+            />
+    <ImageButton
+        android:layout_margin="15dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:src="@drawable/phone"
+        android:background="@drawable/circle1"
+        android:id="@+id/button2"
+        android:layout_gravity="bottom" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="510dp"
+            android:text="Call Coder"
+            android:id="@+id/textView14"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:layout_marginLeft="90dp"
+            android:textColor="#000000"
+            />
+    <!--Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call CEO"
+        android:id="@+id/button"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="100dp"
+     android:layout_marginLeft="130dp"
+        android:textColor="#122A0A"
+        android:background="@android:color/transparent"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Manager"
+        android:id="@+id/button1"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="130dp"
+        android:textColor="#122A0A"
+        android:background="@android:color/transparent"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Tester"
+        android:id="@+id/button2"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="130dp"
+        android:textColor="#122A0A"
+        android:background="@android:color/transparent"/-->
+</FrameLayout>
+</RelativeLayout>

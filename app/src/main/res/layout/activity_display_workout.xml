@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/workout">
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250px"
+        android:layout_marginTop="40px"
+
+        android:text="@string/button_send01"
+        android:onClick="sendChest"
+        android:background="#27ae60" />
+
+
+
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-240px"
+        android:layout_marginTop="200px"
+        android:text="@string/button_send02"
+        android:onClick="sendShoulder"
+        android:background="#fd8d53"
+        android:id="@+id/button" />
+
+
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-240px"
+        android:layout_marginTop="350px"
+        android:text="@string/button_send03"
+        android:onClick="sendLats"
+        android:background="#ffa500"/>
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-240px"
+        android:layout_marginTop="500px"
+        android:text="@string/button_send04"
+        android:onClick="sendTri"
+        android:background="#a1c908"/>
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-240px"
+        android:layout_marginTop="650px"
+        android:text="@string/button_send05"
+        android:onClick="sendBi"
+        android:background="#da635d"/>
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-240px"
+        android:layout_marginTop="800px"
+        android:text="@string/button_send06"
+        android:onClick="sendSquat"
+        android:background="#20b2aa"/>
+</LinearLayout>
